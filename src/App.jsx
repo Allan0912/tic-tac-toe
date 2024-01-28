@@ -3,8 +3,8 @@ import confetti from 'canvas-confetti'
 import './App.css'
 
 const Turns = { //Se definen los turnos
-  X: "x",
-  O: "o"
+  X: "❌",
+  O: "🪩"
 }
 
 const Square = ({children,isSelected, updateBoard, index})=>{
