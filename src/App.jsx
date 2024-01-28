@@ -4,7 +4,7 @@ import './App.css'
 
 const Turns = { //Se definen los turnos
   X: "❌",
-  O: "🪩"
+  O: "⚪"
 }
 
 const Square = ({children,isSelected, updateBoard, index})=>{
